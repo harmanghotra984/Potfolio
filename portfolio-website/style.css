@@ -1,0 +1,119 @@
+header {padding: 1px 0px;
+   margin: 3px;
+   margin-bottom: 0px;
+    font-size: large;
+    background-color: rgb(57, 4, 47);
+    
+  }
+ .header-image{
+  padding:2px;
+  background-color: aliceblue;
+  width: 100px;
+  margin: 2px;
+  border-radius: 50%;
+  position:fixed;
+  left: 20px; 
+  }
+
+
+ul{
+    display: flex;
+    list-style: none;
+    height: auto;
+    justify-content: right;
+}
+  ul li a{
+    margin: 0 28px;
+    color: rgb(232, 164, 145);
+  }
+  h1 b {
+    justify-content: center;
+    display:flex;
+    padding: 2px;
+    font-style:normal;
+    text-decoration: underline solid;
+} 
+ 
+p1{
+     margin:15px;
+    justify-content: center;
+    display: flex;
+    font-size:20px;
+   color:rgb(255, 255, 255);
+  }
+  p{
+  color: white;
+    padding: 20px 0;
+    border: 3px solid;
+   background-color:rgb(57, 4, 47);
+  font-size: large;
+  width: 15cm;
+  border-radius: 5px;
+}
+    
+
+  footer .foot{
+    padding:20px 0px;
+    margin: 3px;
+    background-color: rgb(57, 4, 47);
+    color: rgb(232, 164, 145);
+    text-align: center;
+    position:relative;
+    
+    bottom: -70px;
+}
+body{
+  background-image: url(photo/wallpaper3.png);
+  
+}
+
+.container {
+  display: flex;
+ display: grid;
+ grid-template-columns:    1fr 10fr;
+ position: relative;
+ text-align:center;
+ column-gap: 20px;
+ color: aliceblue;
+ font-family: 'georgia';
+ 
+}
+
+
+.text {
+  font-size: 70px;
+  
+}
+.container2{
+  position: relative;
+  bottom: -120px;
+}
+
+
+
+/*making website responsive*/
+@media screen and (max-width:700px) {
+  container {
+    display: flex;
+   color: aliceblue;
+   font-family: 'georgia';
+  }
+  .container2{
+    font-size: 15px;
+    position: relative;
+    float:right;
+    right: 440px;
+    bottom: -350px;
+    
+  }
+  h1 b {
+    justify-content: center;
+    display:flex;
+    position: relative;
+    bottom: -50px;
+    padding: 2px;
+    font-style:normal;
+    text-decoration: underline solid;
+} 
+    
+}

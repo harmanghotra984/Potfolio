@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(6, 156, 193);
+}
+.about{
+    border: 2px  solid red;
+    margin: 600px;
+    
+    font-size: large;
+    padding: 10px 0px;
+   margin-top: 200px;
+   margin-bottom: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+
+}
+.project{
+    border: 2px  solid red;
+    margin: 600px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    font-size: large;
+    padding: 10px;
+    margin-top: auto;
+    background-color: aliceblue;
+    position: relative;
+    text-align: center;
+}

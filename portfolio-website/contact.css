@@ -1,0 +1,109 @@
+header {padding: 1px 0px;
+    margin: 3px;
+    margin-bottom: 0px;
+     font-size: large;
+     background-color: rgb(57, 4, 47);
+     
+   }
+  .header-image{
+   padding:2px;
+   background-color: aliceblue;
+   width: 100px;
+   margin: 2px;
+   border-radius: 50%;
+   position:fixed;
+   left: 20px; 
+   }
+ 
+ 
+ ul{
+     display: flex;
+     list-style: none;
+     height: auto;
+     justify-content: right;
+ }
+   ul li a{
+     margin: 0 28px;
+     color: rgb(232, 164, 145);
+   }
+   h1 b {
+     justify-content: center;
+     display:flex;
+     padding: 2px;
+     font-style:normal;
+     text-decoration: underline solid;
+ } 
+ footer .foot{
+    padding:20px 0px;
+    margin: 3px;
+    background-color: rgb(57, 4, 47);
+    color: rgb(232, 164, 145);
+    text-align: center;
+    position:relative;
+    bottom: -105px;
+}
+p1{
+    margin:15px;
+   justify-content: center;
+   display: flex;
+   font-size:20px;
+  color:rgb(255, 255, 255);
+ }
+.text {
+    font-size: 70px;
+    
+  }
+  body{
+    background-color:aliceblue;
+  }
+  #contact-form{
+    padding: 10px;
+    background-color: rgb(231, 231, 245);
+   width: fit-content;
+   height: fit-content;
+   border-radius: 10px;
+
+  }
+  #contac{
+    
+        text-align: center;
+       
+        padding: 20px;
+        margin: auto;
+        width: 15%;
+ }
+ button{
+    padding:7px 20px;
+    background-color: rgb(227, 170, 141);
+    border-radius: 5px;
+ }
+ #name,#message,#email{
+    padding: 5px 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 5px;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial;
+
+ }
+#message{
+    
+    height: 100px;
+}
+#con{
+    justify-content: center;
+    text-align: center;
+   
+    position: relative;
+    width:200px ;
+    height: max-content;
+    left: 60px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+  }
+    form{
+    border-radius: 10px;
+    font-family:Courier;
+    font-size: larger;    
+}
